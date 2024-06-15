@@ -28,3 +28,36 @@ let myObj={
 const myFunction = function(){
     console.log("hello world");
 }
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// stack (primitive) , Heap(Non- primitive)
+
+// value pass
+let myYoutubename = "kuldeepSinghdotcom"
+
+let anothername = myYoutubename
+ anothername= "chaiaurcode"
+
+console.log(myYoutubename)
+console.log(anothername)
+
+
+// reference pass
+let userOne ={
+    email: "user@gmail.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "helloworld@mail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
